@@ -1,0 +1,29 @@
+.crypto-table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.crypto-logo {
+  width: 50px; 
+}
+
+@media screen and (max-width: 768px) {
+  th, td {
+    font-size: 14px; 
+    padding: 6px; 
+  }
+  
+  .crypto-logo {
+    width: 40px; 
+  }
+}
